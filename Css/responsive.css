@@ -1,0 +1,348 @@
+@media (min-width:320px) and (max-width:767px) {
+    
+    .togglebtn {
+        background: #ffffff;
+    }
+
+    .navbar_item {
+        background-color: #FF4655;
+    }
+
+    header nav {
+        z-index: 1;
+    }
+
+    .navbar_item ul {
+        gap: 10px;
+        align-items: center;
+    }
+
+    header nav .navright_ul {
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    /* navber end */
+
+    #banner {
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        background: url(/Image/banner1.png);
+        background-position: center ;
+    }
+
+    #banner .banner_text {
+        padding-top: 100px;
+    }
+
+    #banner .banner_text h5 {
+        font-size: 20px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    #banner .banner_text h1::after {
+        width: 75px;
+        height: 3px;
+        right: revert;
+        bottom: 9px;
+        position: absolute;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+
+    #banner .banner_text p {
+        margin-bottom: 25px;
+        width: 360px;
+        text-align: justify;
+    }
+
+    #banner .banner_text .button {
+        padding: 8px 16px;
+    }
+
+    #banner .social ul li {
+        margin-top: 120px;
+    }
+
+    /* banner end */
+
+    #about {
+        width: 100%;
+        height: 1100px;
+    }
+
+    #about h2 {
+        padding-top: 25px;
+        width: 360px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    
+    #about h2::after {
+        width: 80px;
+        bottom: 8px;
+        left: revert;
+    }
+
+    #about .banner_wrapper .about_part {
+        padding-top: 25px;
+     }
+
+    .aboutimg {
+        width: 100%;
+     }
+
+    #about .banner_wrapper .about_img::after { 
+        width: 90px;
+    }
+    
+    #about .banner_wrapper .about_img::before { 
+        height: 90px;
+    }
+
+    #about .banner_wrapper .about_text h3 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    #about .banner_wrapper .about_text p {
+        line-height: 25px;
+        margin-bottom: 25px;
+        text-align: justify;
+    }
+
+    #about .banner_wrapper .about_text a {
+        padding: 8px 16px;
+    }
+
+    #about .counter_part {
+        margin-top: 30px;
+    }
+
+    #about .banner_wrapper .counter_item {
+        margin-top: 10px;
+        height: 120px;
+    }
+
+    #about .banner_wrapper .counter_item h3 {
+        font-size: 40px;
+        line-height: 52px;
+        padding-top: 10px;
+    }
+
+    #about .banner_wrapper .counter_item h3::after {
+        right: revert;
+    }
+
+    /* about end */
+
+    #popular {
+        height: 800px;
+    }
+
+    #popular .popular_text h2 {
+        padding-top: 30px;
+        width: auto;
+        font-size: 30px;
+        line-height: 43px;
+        margin-right: 5px;
+    }
+
+    #popular .popular_text h2::after {
+        width: 80px;
+        bottom: 8px;
+        right: 90px;
+    }
+
+    #popular .img_div {
+        width: 100%;
+        height: 316px;
+    }
+   
+    #popular .popular_img1 img {
+        bottom: 250px;
+        left: -10px;
+        width: 100%;
+    }
+
+    #popular .popular_img2 img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #popular .prev {
+        margin-top: 560px;
+        margin-left: 335px;
+    }
+    
+    /* popular end */
+
+    #live {
+        height: 1840px;
+    }
+
+    #live .live_streamin h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 25px;
+        width: 438px;
+    }
+
+    #live .live_streamin h2::after {
+        width: 60px;
+        bottom: 6px;
+        left: revert;
+    }
+
+    #live .video_part {
+        margin-top: 20px;
+    }
+
+    #live .video_part .video img {
+       width: 100%;
+       margin-left: 10px;
+       margin-bottom: 15px;
+    }
+
+    #live .matche h5 {
+       margin-top: 400px;
+    }
+
+    #live .matche .prev_matche {
+        width: 100%;
+        height: 370px;
+        margin-bottom: 80px;
+    }
+
+    /* live end */
+
+    #sale {
+        height: 3650px;
+    }
+
+    #sale .sale_wrapper h2 {
+        padding-top: 25px;
+        font-size: 30px;
+        line-height: 40px;
+        width: 370px;
+        margin-right: 5px;
+    }
+
+    #sale .sale_wrapper h2::after {
+        width: 70px;
+        bottom: 7px;
+        left: 140px;
+    }
+    
+    #sale .card {
+        width: 100%;
+        height: 650px;
+        margin-bottom: 25px;
+    }
+
+    #sale .catalog h5 {
+        margin-top: 16px;
+    }
+
+    #sale .favourite {
+        margin-top: 20px;
+        margin: 0 auto;
+        width: 100%;
+        height: 700px;
+        padding: 20px;
+    }
+
+    #sale .catalog .favourite h3 {
+        font-size: 25px;
+        line-height: 35px;
+        width: 360px;
+    }
+
+    #sale .catalog p {
+        text-align: justify;
+    }
+
+    #sale .catalog a {
+        line-height: 20px;
+        padding: 8px 20px;
+    }
+
+    #sale .catalog img {
+        width: 100%;
+    }
+    /* sale end */
+
+    #accesories {
+        padding: 25px 0;
+        padding-top: 25px;
+        width: 100%;
+    }
+
+    #accesories h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    #accesories h2::after {
+        width: 80px;
+        bottom: 8px;
+        right: revert;
+    }
+
+    #accesories .row {
+        height: 1970px;
+        margin-top: 25px;
+        gap: 20px;
+    }
+
+    #accesories .img {
+        margin: 0 auto;
+    }
+
+    /* accesories end */
+
+    #team .team_wrapper h2 {
+        padding-top: 25px;
+        font-size: 30px;
+        line-height: 40px;
+        width: 375px;
+    }
+
+    #team .team_wrapper h2::after {
+        width: 80px;
+        right: 150px;
+    }
+
+    .team_group {
+        margin-bottom: 20px;
+    }
+
+    #team .card_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #team .card_text_part {
+        padding: 15px 10px;
+        height: 248px;
+        bottom: -190px;
+    }
+
+    #team .team_socialpart {
+        margin-top: auto;
+        display: flex;
+        gap: 20px;
+    }
+    
+    #team .team_socialpart a {
+        margin-left: -15px;
+    }
+
+    
+}
