@@ -1017,7 +1017,7 @@ header nav .navber_right ul li span {
     margin-top: -90px;
     width: 1320px;
     height: 165px;
-    /* background-color: #FF4655; */
+    background-color: #FF4655;
     display: flex;
     justify-content: space-between;
     padding: 30px;
