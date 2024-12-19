@@ -348,6 +348,10 @@
         display: block !important;
     }
 
+    #team .team_socialpart ul li {
+        margin-top: 18px;
+    }
+
     #team .team_socialpart ul li a {
         font-size: 20px;
         font-weight: 400;
@@ -355,4 +359,125 @@
         color: #FFFFFF;
         margin: 0 auto;
     }
+
+    /* team end */
+
+    #faq {
+        height: 875px;
+    }
+
+    #faq .faq_wrapper h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #faq .faq_wrapper h2::after {
+        width: 90px;
+        right: revert;
+    }
+
+    #faq .faq_part {
+        margin-top: 40px;
+        height: 600px;
+    }
+
+    #faq .faq_wrapper .box {
+        width: 50px;
+        height: 50px;
+    }
+
+    #faq .faq_wrapper .item1 {
+        border: none;
+    }
+
+    #faq .box_text {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #faq .faq_wrapper .box h3 {
+        font-size: 30px;
+    }
+
+    #faq .faq_wrapper .item2 {
+        border: none;
+    }
+
+    #faq .faq_wrapper .item3 {
+       border: none;
+    }
+
+    #faq .faq_wrapper .item3 {
+        padding: 0;
+    }
+
+    #faq .faq_wrapper .item4 {
+        padding: 0;
+    }
+
+    /* faq end */
+
+    #footer {
+        height: 1100px;
+    }
+
+    #footer .subscribe {
+        position: absolute;
+        margin-top: -100px;
+        width: 95%;
+        height: 215px;
+        display: block;
+        padding: 15px;
+    }
+
+    #footer .sub_text h3 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 35px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    #footer .sub_email input {
+        width: 345px;
+        border-radius: 5px;
+        padding-left: 15px;
+    }
+
+    #footer .sub_email button {
+        font-weight: 400;
+        line-height: 14px;
+        width: 90px;
+        border-radius: 5px;
+        margin-left: -90px;
+    }
+
+    #footer .row {
+        padding-top: 130px;
+    }
+
+    #footer .content .hancok p {
+        width: 100%;
+        margin: 0;
+        text-align: justify;
+    }
+
+    #footer .content .item {
+        margin-top: 30px;
+    }
+
+    #footer .hancok ul {
+        margin-left: 75px;
+        padding: 0;
+    }
+
+    #footer .content .item ul li {
+        margin-top: 15px;
+    }
+
+    #footer .content .gallery {
+        padding: 15px;
+        margin-top: 30px;
+    }
+    
 }
