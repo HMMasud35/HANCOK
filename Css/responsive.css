@@ -442,6 +442,7 @@
         width: 345px;
         border-radius: 5px;
         padding-left: 15px;
+        margin-top: 15px;
     }
 
     #footer .sub_email button {
@@ -478,6 +479,10 @@
     #footer .content .gallery {
         padding: 15px;
         margin-top: 30px;
+    }
+
+    #footer .content .gallery img {
+        width: 100%;
     }
     
 }
